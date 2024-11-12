@@ -1,4 +1,4 @@
-import { loadPokemonList, searchPokemon, nextPage, prevPage } from './pokemonManager.js';
+import { loadPokemonList, searchPokemon, nextPage, prevPage } from './navigation.js';
 import { toggleTheme, initializeTheme } from './theme.js';
 
 $(document).ready(function () {
