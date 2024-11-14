@@ -1,3 +1,5 @@
+import { loadPokemonList } from './navigation.js';
+
 function showLoadingMessage() {
     $('#pokemonContainer').html('<div class="loading">Cargando...</div>');
 }
